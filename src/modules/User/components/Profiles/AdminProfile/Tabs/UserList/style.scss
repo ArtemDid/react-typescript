@@ -1,0 +1,59 @@
+.UserList{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+
+    .Head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 15px; 
+    }
+
+    .table {
+        border-radius: 20px;
+    }
+
+    .table-column-1 {
+        max-width: 100px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .table-column-3 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .table-column-select {
+        min-width: 120px;
+    }
+
+    @media (max-width: 1000px) {
+        max-width: 450px;
+        *{
+            font-size: 10px;
+        }
+        .table-column-1 {
+            padding: 2px;
+        }
+    
+        .table-column-2 {
+            padding: 2px;
+        }
+
+        .table-column-3 {
+            display: none;
+        }
+
+        .table-column-select {
+            min-width: 90px;
+        }
+
+        .table-column-action{
+            min-width: 40px;
+            padding: 0;
+        }
+    }    
+}
+

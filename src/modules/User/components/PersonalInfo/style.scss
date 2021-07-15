@@ -1,0 +1,64 @@
+.personal-info {
+    margin-bottom: 5px;
+    padding: 20px;
+    width: 1000px;
+    border: none;
+    background-color: white;
+
+    border-radius: 3px;
+    .submit{
+        min-height:30px ;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .link {
+        color: gray;
+        font-size: larger;
+        margin-right: 30px;
+    }
+    .title {
+        font-size: 24px;
+        display: flex;
+    }
+    .user-information {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+
+        .user-information-title {
+            font-weight: bold;
+        }
+        .user-information-value {
+            padding-left: 5px;
+        }
+    }
+}
+
+.change-password {
+    color: gray;
+    margin-top: 10px;
+    opacity: .7;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 30px;
+
+    &:hover {
+        background-color: gray;
+        transition: .5s;
+        color: lightgray;
+        cursor: pointer;
+    }
+
+}
+.profile{
+    border: none;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}

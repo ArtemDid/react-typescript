@@ -1,0 +1,59 @@
+.ad-page{
+    margin-top: 30px;
+    width: 1200px;
+
+    .create{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 40px
+    }
+
+    .description{
+        .input{
+            height: 200px!important;
+        }
+    }
+    .image{
+        color: gray;
+        button{
+            color: wheat;
+        }
+    }
+    .headerProd{
+        width: 30%;
+        font-size: large;
+        margin-bottom: 10px;
+    }
+    margin-bottom: 40px;
+
+    .submitBtn{
+      
+        button{
+            background-color: white;
+        }
+
+        display: flex;
+        justify-content: flex-end;
+       .submit{
+        height: 50px;
+        margin-top: 30px;
+        width: 30%;
+       }
+    }
+
+    .block{
+        font-size: large;
+        background-color: white;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+}
+body{
+    background-size: cover;
+    background-image: url('../../../img/belyy-kirpich-stena-iz-kirpicha.jpg');
+}
+.main{
+    background-color: white;
+}

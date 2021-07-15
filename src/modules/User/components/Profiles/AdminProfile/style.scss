@@ -1,0 +1,26 @@
+#body {
+    width: 100%;
+}
+
+.AdminPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .ant-tabs-nav{
+        color: rgb(0, 0, 0);
+       border: transparent;
+        font-weight: bolder;
+    }
+    .ant-tabs-tab{
+        border: transparent;
+        font-size: 40px;
+    }
+    .ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane, .ant-tabs-left > div > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+        padding:0;
+    }
+}
+
+.menu {
+    width:200px;
+}

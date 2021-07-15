@@ -1,0 +1,90 @@
+.PostList{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+
+    .Input{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+
+    .table {
+        border-radius: 20px;
+    }
+
+    .table-column-1 {
+        width: 150px;
+        padding:5px;
+    }
+
+    .table-column-2 {
+        width: 200px;
+        overflow-y:scroll;
+        padding:5px;
+    }
+
+    .table-column-3 {
+        text-align: center;
+        width: 350px;
+        padding:0;
+
+    }
+
+    .table-column-4 {
+        width: 50px;
+        text-align: center;
+        padding:0;
+    }
+
+    .table-column-5 {
+        width: 300px;
+        text-align: center;
+        padding:0;
+        .operation-btn {
+            margin: 2px;
+        }
+    }
+
+    .table-column-select {
+        min-width: 120px;
+    }
+
+    @media (max-width: 1000px) {
+        max-width: 450px;
+        *{
+            font-size: 10px;
+        }
+
+        .table-column-3 {
+            display: none;
+        }
+
+        .table-column-2 {
+            width: 400px;
+        }
+
+        .table-column-5 {
+            .operation-btn {
+                margin: 2px;
+                width: 40px;
+                padding: 0;
+            }
+        }
+
+        .table-column-select {
+            min-width: 90px;
+        }
+
+        .table-column-action{
+            min-width: 40px;
+            padding: 0;
+        }
+    }    
+}
+
